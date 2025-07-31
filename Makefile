@@ -3,7 +3,7 @@
 #
 
 export GO111MODULE = on
-export GOFLAGS = -mod=vendor
+export GOFLAGS = -mod=mod
 
 # variable definitions
 NAME := checkmake
