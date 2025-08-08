@@ -13,7 +13,7 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
-        groups:
+    groups:
       golang-dependencies:
         patterns:
           - "github.com/golang*"
