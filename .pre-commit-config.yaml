@@ -3,8 +3,8 @@ exclude: |
         vendor/.*
     )$
 repos:
--   repo: https://github.com/mrtazz/checkmake.git
-    rev: main
+-   repo: https://github.com/checkmake/checkmake.git
+    rev: 0.2.2
     hooks:
     - id: checkmake
       exclude: |

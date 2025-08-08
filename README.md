@@ -147,14 +147,14 @@ The [pandoc](https://pandoc.org/) document converter utility is required to run 
 With `go` 1.16 or higher:
 
 ```sh
-go install github.com/mrtazz/checkmake/cmd/checkmake@latest
+go install github.com/checkmake/checkmake/cmd/checkmake@latest
 checkmake Makefile
 ```
 
 Or alternatively, run it directly:
 
 ```sh
-go run github.com/mrtazz/checkmake/cmd/checkmake@latest Makefile
+go run github.com/checkmake/checkmake/cmd/checkmake@latest Makefile
 ```
 
 ### Packages
@@ -164,7 +164,7 @@ There are packages for linux up [on packagecloud.io](https://packagecloud.io/mrt
 To build checkmake you will need to have [golang](https://golang.org/) installed. Once you have Go installed, you can simply clone the repo and build the binary and man page yourself with the following commands.
 
 ```sh
-git clone https://github.com/mrtazz/checkmake
+git clone https://github.com/checkmake/checkmake
 cd checkmake
 make
 ```
