@@ -3,7 +3,7 @@
 package formatters
 
 import (
-	"github.com/mrtazz/checkmake/rules"
+	"github.com/checkmake/checkmake/rules"
 )
 
 // Formatter is the base interface type to implement for formatters

@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mrtazz/checkmake/parser"
-	"github.com/mrtazz/checkmake/rules"
+	"github.com/checkmake/checkmake/parser"
+	"github.com/checkmake/checkmake/rules"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -29,19 +29,19 @@ var mpRunTests = []struct {
 			rules.RuleViolation{
 				Rule:       "minphony",
 				Violation:  "Missing required phony target \"kleen\"",
-				FileName: "green-eggs.mk",
+				FileName:   "green-eggs.mk",
 				LineNumber: -1,
 			},
 			rules.RuleViolation{
 				Rule:       "minphony",
 				Violation:  "Missing required phony target \"awl\"",
-				FileName: "green-eggs.mk",
+				FileName:   "green-eggs.mk",
 				LineNumber: -1,
 			},
 			rules.RuleViolation{
 				Rule:       "minphony",
 				Violation:  "Missing required phony target \"toast\"",
-				FileName: "green-eggs.mk",
+				FileName:   "green-eggs.mk",
 				LineNumber: -1,
 			},
 		},

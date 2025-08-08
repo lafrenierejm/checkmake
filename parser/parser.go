@@ -10,7 +10,8 @@ import (
 	"fmt"
 	"regexp"
 	"strings"
-	"github.com/mrtazz/checkmake/logger"
+
+	"github.com/checkmake/checkmake/logger"
 )
 
 // Makefile provides a data structure to describe a parsed Makefile

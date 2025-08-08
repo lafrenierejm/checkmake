@@ -3,15 +3,15 @@ package timestampexpanded
 import (
 	"testing"
 
-	"github.com/mrtazz/checkmake/parser"
-	"github.com/mrtazz/checkmake/rules"
+	"github.com/checkmake/checkmake/parser"
+	"github.com/checkmake/checkmake/rules"
 	"github.com/stretchr/testify/assert"
 )
 
 func TestVersionIsNotSimplyExpanded(t *testing.T) {
 
 	makefile := parser.Makefile{
-		FileName:  "timestamp-expanded.mk",
+		FileName: "timestamp-expanded.mk",
 		Variables: []parser.Variable{parser.Variable{
 			Name:           "BUILDTIME",
 			Assignment:     "$(shell date -u +\"%Y-%m-%dT%H:%M:%SZ\")",
@@ -33,7 +33,7 @@ func TestVersionIsNotSimplyExpanded(t *testing.T) {
 func TestVersionIsSimplyExpanded(t *testing.T) {
 
 	makefile := parser.Makefile{
-		FileName:  "timestamp-simply-expanded.mk",
+		FileName: "timestamp-simply-expanded.mk",
 		Variables: []parser.Variable{parser.Variable{
 			Name:           "BUILDTIME",
 			Assignment:     "$(shell date -u +\"%Y-%m-%dT%H:%M:%SZ\")",

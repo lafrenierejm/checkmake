@@ -5,7 +5,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/mrtazz/checkmake/rules"
+	"github.com/checkmake/checkmake/rules"
 	"github.com/olekukonko/tablewriter"
 )
 

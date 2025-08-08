@@ -5,16 +5,17 @@ package validator
 import (
 	"fmt"
 
-	"github.com/mrtazz/checkmake/config"
-	"github.com/mrtazz/checkmake/logger"
-	"github.com/mrtazz/checkmake/parser"
-	"github.com/mrtazz/checkmake/rules"
+	"github.com/checkmake/checkmake/config"
+	"github.com/checkmake/checkmake/logger"
+	"github.com/checkmake/checkmake/parser"
+	"github.com/checkmake/checkmake/rules"
+
 	// rules register themselves via their package's init function, so we can
 	// just blank import it
-	_ "github.com/mrtazz/checkmake/rules/maxbodylength"
-	_ "github.com/mrtazz/checkmake/rules/minphony"
-	_ "github.com/mrtazz/checkmake/rules/phonydeclared"
-	_ "github.com/mrtazz/checkmake/rules/timestampexpanded"
+	_ "github.com/checkmake/checkmake/rules/maxbodylength"
+	_ "github.com/checkmake/checkmake/rules/minphony"
+	_ "github.com/checkmake/checkmake/rules/phonydeclared"
+	_ "github.com/checkmake/checkmake/rules/timestampexpanded"
 )
 
 // Validate let's you validate a passed in Makefile with the provided config

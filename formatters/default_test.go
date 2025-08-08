@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/mrtazz/checkmake/config"
-	"github.com/mrtazz/checkmake/parser"
-	"github.com/mrtazz/checkmake/validator"
+	"github.com/checkmake/checkmake/config"
+	"github.com/checkmake/checkmake/parser"
+	"github.com/checkmake/checkmake/validator"
 	"github.com/stretchr/testify/assert"
 )
 

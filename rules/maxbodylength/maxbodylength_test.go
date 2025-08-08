@@ -3,8 +3,8 @@ package maxbodylength
 import (
 	"testing"
 
-	"github.com/mrtazz/checkmake/parser"
-	"github.com/mrtazz/checkmake/rules"
+	"github.com/checkmake/checkmake/parser"
+	"github.com/checkmake/checkmake/rules"
 	"github.com/stretchr/testify/assert"
 )
 
