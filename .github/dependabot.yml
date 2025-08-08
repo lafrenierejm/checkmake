@@ -17,9 +17,15 @@ updates:
       golang-dependencies:
         patterns:
           - "github.com/golang*"
-# Dependencies listed in .github/workflows/*.yml
+  # Dependencies listed in .github/workflows/*.yml
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "weekly"
-
+  # Dockerfile base images
+  - package-ecosystem: docker
+    directories:
+      - /
+      - buildenv/
+    schedule:
+      interval: weekly
