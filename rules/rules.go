@@ -2,7 +2,7 @@
 package rules
 
 import (
-	"github.com/mrtazz/checkmake/parser"
+	"github.com/checkmake/checkmake/parser"
 )
 
 // Rule is the type of a rule function

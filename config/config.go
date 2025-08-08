@@ -3,9 +3,10 @@ package config
 
 import (
 	"fmt"
+
+	"github.com/checkmake/checkmake/logger"
+	"github.com/checkmake/checkmake/rules"
 	"github.com/go-ini/ini"
-	"github.com/mrtazz/checkmake/logger"
-	"github.com/mrtazz/checkmake/rules"
 )
 
 // Config is a struct to configure the validator and rules

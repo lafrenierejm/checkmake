@@ -3,8 +3,8 @@ package validator
 import (
 	"testing"
 
-	"github.com/mrtazz/checkmake/config"
-	"github.com/mrtazz/checkmake/parser"
+	"github.com/checkmake/checkmake/config"
+	"github.com/checkmake/checkmake/parser"
 	"github.com/stretchr/testify/assert"
 )
 

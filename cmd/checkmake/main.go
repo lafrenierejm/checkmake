@@ -6,13 +6,13 @@ import (
 	"log"
 	"os"
 
+	"github.com/checkmake/checkmake/config"
+	"github.com/checkmake/checkmake/formatters"
+	"github.com/checkmake/checkmake/logger"
+	"github.com/checkmake/checkmake/parser"
+	"github.com/checkmake/checkmake/rules"
+	"github.com/checkmake/checkmake/validator"
 	docopt "github.com/docopt/docopt-go"
-	"github.com/mrtazz/checkmake/config"
-	"github.com/mrtazz/checkmake/formatters"
-	"github.com/mrtazz/checkmake/logger"
-	"github.com/mrtazz/checkmake/parser"
-	"github.com/mrtazz/checkmake/rules"
-	"github.com/mrtazz/checkmake/validator"
 	"github.com/olekukonko/tablewriter"
 )
 
@@ -75,7 +75,7 @@ func parseArgsAndGetFormatter(args map[string]interface{}) (formatters.Formatter
 	if args["--config"] != nil {
 		configPath = args["--config"].(string)
 	} else {
-		_, err := os.Stat(configPath);
+		_, err := os.Stat(configPath)
 		if os.IsNotExist(err) {
 			home := os.Getenv("HOME")
 			configPath = home + "/checkmake.ini"

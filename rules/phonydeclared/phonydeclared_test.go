@@ -3,15 +3,15 @@ package phonydeclared
 import (
 	"testing"
 
-	"github.com/mrtazz/checkmake/parser"
-	"github.com/mrtazz/checkmake/rules"
+	"github.com/checkmake/checkmake/parser"
+	"github.com/checkmake/checkmake/rules"
 	"github.com/stretchr/testify/assert"
 )
 
 func TestAllTargetsArePhony(t *testing.T) {
 
 	makefile := parser.Makefile{
-		FileName:  "phony-declared-all-phony.mk",
+		FileName: "phony-declared-all-phony.mk",
 		Variables: []parser.Variable{parser.Variable{
 			Name:       "PHONY",
 			Assignment: "all clean"}},
@@ -30,7 +30,7 @@ func TestAllTargetsArePhony(t *testing.T) {
 func TestMissingOnePhonyTarget(t *testing.T) {
 
 	makefile := parser.Makefile{
-		FileName:  "phony-declared-missing-one-phony.mk",
+		FileName: "phony-declared-missing-one-phony.mk",
 		Variables: []parser.Variable{parser.Variable{
 			Name:       "PHONY",
 			Assignment: "all"}},

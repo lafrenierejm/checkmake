@@ -5,8 +5,8 @@ import (
 	"os"
 	"text/template"
 
-	"github.com/mrtazz/checkmake/logger"
-	"github.com/mrtazz/checkmake/rules"
+	"github.com/checkmake/checkmake/logger"
+	"github.com/checkmake/checkmake/rules"
 )
 
 // CustomFormatter is a formatter that is configurable via a template string

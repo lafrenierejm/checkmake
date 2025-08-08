@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/mrtazz/checkmake/parser"
-	"github.com/mrtazz/checkmake/rules"
+	"github.com/checkmake/checkmake/parser"
+	"github.com/checkmake/checkmake/rules"
 )
 
 var (
