@@ -1,6 +1,6 @@
 module github.com/checkmake/checkmake
 
-go 1.17
+go 1.24
 
 require (
 	github.com/docopt/docopt-go v0.0.0-20141128170934-854c423c8108
