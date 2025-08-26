@@ -2,8 +2,6 @@ module github.com/checkmake/checkmake
 
 go 1.25
 
-toolchain go1.24.2
-
 require (
 	github.com/docopt/docopt-go v0.0.0-20141128170934-854c423c8108
 	github.com/go-ini/ini v1.67.0
