@@ -63,7 +63,7 @@ repos. Simply add a `.pre-commit-config.yaml` to your repo's top-level directory
 
 ```yaml
 repos:
--   repo: https://github.com/mrtazz/checkmake.git
+-   repo: https://github.com/checkmake/checkmake.git
     # Or another commit hash or version
     rev: 0.2.2
     hooks:
@@ -83,7 +83,7 @@ There are two hooks available:
 - `checkmake-system`
 
    pre-commit will look for `checkmake` on your `PATH`.
-   This hook requires you to install `checkmake` separately, e.g. with your package manager or [a prebuilt binary release](https://github.com/mrtazz/checkmake/releases).
+   This hook requires you to install `checkmake` separately, e.g. with your package manager or [a prebuilt binary release](https://github.com/checkmake/checkmake/releases).
    Only recommended if it's permissible to require all repository users install `checkmake` manually.
 
 Then, run `pre-commit` as usual as a part of `git commit` or explicitly, for example:
