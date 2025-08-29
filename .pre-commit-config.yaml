@@ -1,6 +1,5 @@
 exclude: |
     (?x)^(
-        vendor/.*
     )$
 repos:
 -   repo: https://github.com/checkmake/checkmake.git
@@ -9,6 +8,5 @@ repos:
     - id: checkmake
       exclude: |
         (?x)^(
-          vendor/.*|
           fixtures/missing_phony\.make
         )$
