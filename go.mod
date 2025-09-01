@@ -6,7 +6,7 @@ require (
 	github.com/docopt/docopt-go v0.0.0-20141128170934-854c423c8108
 	github.com/go-ini/ini v1.67.0
 	github.com/olekukonko/tablewriter v0.0.5
-	github.com/stretchr/testify v1.11.0
+	github.com/stretchr/testify v1.11.1
 )
 
 require (
