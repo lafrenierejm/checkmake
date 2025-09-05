@@ -7,7 +7,7 @@
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 
 ## Overview
-checkmake is an experimental tool for linting and checking Makefiles. It may
+checkmake is a tool for linting and checking Makefiles. It may
 not do what you want it to.
 
 ## Usage

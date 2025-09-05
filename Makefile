@@ -7,7 +7,7 @@ export GOFLAGS = -mod=mod
 
 # variable definitions
 NAME := checkmake
-DESC := experimental linter for Makefiles
+DESC := linter for Makefiles
 PREFIX ?= usr/local
 VERSION := $(shell git describe --tags --always --dirty)
 GOVERSION := $(shell go version)
