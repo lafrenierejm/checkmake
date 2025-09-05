@@ -5,14 +5,14 @@ date: REPLACE_DATE
 ---
 
 # NAME
-**checkmake** -- experimental linter for Makefiles
+**checkmake** -- linter for Makefiles
 
 # SYNOPSIS
 
 **checkmake** \[options\] makefile ...
 
 # DESCRIPTION
-`checkmake` is an experimental linter for Makefiles. It allows for a set of
+`checkmake` is a linter for Makefiles. It allows for a set of
 configurable rules being run against a Makefile or a set of `\*.mk` files.
 
 # OPTIONS
